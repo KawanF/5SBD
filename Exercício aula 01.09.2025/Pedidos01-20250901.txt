@@ -1,0 +1,5 @@
+codigoPedido;dataPedido;sku;upc;nomeProduto;qtd;valor;frete;email;nomeComprador;endereco;cep;uf;pais
+abcd1234;2025-09-01;brinq1234567rio;1234567;quebra-cabeca;1;43,22;5,32;ze@gmail.com;Jose das couves;rua das marrecas 11;20123333;RJ;brasil
+abcd1234;2025-09-01;brinq1234566rio;1234566;Hot Wheels;2;55,21;5,32;ze@gmail.com;Jose das couves;rua das marrecas 11;20123333;RJ;brasil
+abcd1235;2025-09-01;brinq1234568rio;1234568;Bola dente de leite;1;23,22;5,32;maria@gmail.com;Maria das couves;rua das marrecas 12;20123333;RJ;brasil
+abcd1236;2025-09-01;brinq1234569rio;1234569;Peteca;1;33,22;5,32;joao@gmail.com;Joao das couves;rua das marrecas 13;20123333;RJ;brasil
