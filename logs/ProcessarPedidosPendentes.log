@@ -1,11 +1,57 @@
-Changed database context to 'Ecommerce'.
+Contexto do banco de dados alterado para 'Ecommerce'.
 
-(0 linhas afetadas)
+(6 linhas afetadas)
 
-(0 linhas afetadas)
+(6 linhas afetadas)
 
-(0 linhas afetadas)
+(1 linhas afetadas)
+
+(2 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(2 linhas afetadas)
+
+(2 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(2 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(2 linhas afetadas)
+
+(1 linhas afetadas)
+
+(1 linhas afetadas)
+
+(2 linhas afetadas)
+
+(4 linhas afetadas)
+
+(1 linhas afetadas)
 AtendimentoID PedidoID    Valor        AtendimentoStatus                                  DataAtendimento 
 ------------- ----------- ------------ -------------------------------------------------- ----------------
+            1           3         7.50 Processado                                               2025-09-29
+            2           1         8.00 Pendente                                                 2025-09-29
+            3           5         4.50 Processado                                               2025-09-29
+            4           4         3.00 Processado                                               2025-09-29
+            5           2        10.00 Pendente                                                 2025-09-29
+            6           3         7.50 Processado                                               2025-09-29
+            7           1         8.00 Pendente                                                 2025-09-29
+            8           5         4.50 Processado                                               2025-09-29
+            9           4         3.00 Processado                                               2025-09-29
+           10           2        10.00 Pendente                                                 2025-09-29
 
-(0 linhas afetadas)
+(10 linhas afetadas)

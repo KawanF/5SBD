@@ -1,3 +1,6 @@
+USE Ecommerce; 
+
+
 -- Inserção Cliente
 INSERT INTO ClienteInfo (
     ClienteCodigo, 
@@ -75,8 +78,8 @@ AND NOT EXISTS (
 );
 
 -- Pedido
-INSERT INTO PedidoInfo (CargaPedidoID, ClienteID, DataPedido, ServicoEnvio, DestinatarioNome, PedidoStatus)
-SELECT TC.PedidoID, CL.ClienteID, TC.DataCompra, TC.ServicoEnvio, TC.DestinatarioNome, 'Pendente'
+INSERT INTO PedidoInfo (CargaPedidoID, ClienteID, DataPedido, ServicoEnvio, DestinatarioNome, PedidoStatus, DataPagamento)
+SELECT TC.PedidoID, CL.ClienteID, TC.DataCompra, TC.ServicoEnvio, TC.DestinatarioNome, 'Pendente', DataPagamento
 FROM TempCarga TC
 INNER JOIN ClienteInfo CL ON CL.ClienteCodigo = TC.ClienteCodigo
 WHERE NOT EXISTS (
@@ -98,8 +101,7 @@ INNER JOIN
     ProdutoInfo PR ON PR.ProdutoSKU = TC.ProdutoSKU;
 
 -- Estoque
-INSERT INTO EstoqueInfo (ProdutoSKU, Quantidade)
-SELECT DISTINCT ProdutoSKU, 0
+INSERT INTO EstoqueInfo (ProdutoSKU, Quantidade, ProdutoID)
+SELECT DISTINCT ProdutoSKU, 0, ProdutoID
 FROM ProdutoInfo
-WHERE ProdutoSKU NOT IN (SELECT ProdutoSKU FROM EstoqueInfo)
-GROUP BY ProdutoSKU;
+WHERE ProdutoSKU NOT IN (SELECT ProdutoSKU FROM EstoqueInfo);

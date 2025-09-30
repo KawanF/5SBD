@@ -1,3 +1,4 @@
+Contexto do banco de dados alterado para 'Ecommerce'.
 
 (0 linhas afetadas)
 
@@ -5,6 +6,6 @@
 
 (0 linhas afetadas)
 
-(0 linhas afetadas)
+(12 linhas afetadas)
 
 (0 linhas afetadas)

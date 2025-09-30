@@ -3,7 +3,7 @@ USE Ecommerce;
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[TempCarga]') AND type in (N'U'))
 BEGIN
     CREATE TABLE dbo.TempCarga (
-        ProdutoID INT PRIMARY KEY,
+        ProdutoID INT,
         PedidoID INT,
         ItemID INT,
         ClienteCodigo VARCHAR(6),

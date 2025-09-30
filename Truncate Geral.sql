@@ -1,3 +1,5 @@
+USE Ecommerce; 
+
 TRUNCATE TABLE TempCarga;
 DROP TABLE TempCarga;
 

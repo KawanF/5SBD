@@ -1,1 +1,1 @@
-Changed database context to 'Ecommerce'.
+Contexto do banco de dados alterado para 'Ecommerce'.
